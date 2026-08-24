@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1769964809840",
+    "createdAt": "2026-04-21T11:45:00.000Z",
+    "current": {
+      "name": "Brownie Ultime Noisettes et Chocolat Noir",
+      "category": "Gâteaux",
+      "servings": 8,
+      "prepTime": 15,
+      "cookTime": 24,
+      "temperature": 170,
+      "ingredients": [
+        "200g chocolat de Pâques (moulages)",
+        "20g cacao en poudre non sucré",
+        "150g beurre demi-sel",
+        "90g sucre roux",
+        "3 œufs",
+        "65g farine T45",
+        "100g noisettes torréfiées",
+        "Fleur de sel"
+      ],
+      "steps": [
+        "Fondre le chocolat de Pâques et le beurre au bain-marie.",
+        "Fouetter les œufs et le sucre réduit (vitesse 4) pendant 2 min.",
+        "Incorporer le mélange chocolaté à la feuille (vitesse 1).",
+        "Ajouter le mélange tamisé farine T45 et cacao en poudre (vitesse 1).",
+        "Intégrer les noisettes et cuire à 170°C pendant 24 minutes."
+      ],
+      "tips": "Le cacao en poudre non sucré compense l'apport massif de sucre du chocolat de Pâques et garantit une mâche parfaite.",
+      "updatedAt": "2026-05-22T17:10:00.000Z"
+    },
+    "history": [
+      {
+        "version": 1,
+        "changedAt": "2026-04-21T11:45:00.000Z",
+        "comment": "Version initiale au chocolat noir 65%, avant l'essai avec le chocolat de Pâques restant.",
+        "snapshot": {
+          "name": "Brownie Ultime Noisettes et Chocolat Noir",
+          "category": "Gâteaux",
+          "servings": 8,
+          "prepTime": 15,
+          "cookTime": 22,
+          "temperature": 170,
+          "ingredients": [
+            "200g chocolat noir 65%",
+            "150g beurre demi-sel",
+            "150g sucre roux",
+            "3 œufs",
+            "65g farine T45",
+            "100g noisettes torréfiées",
+            "Fleur de sel"
+          ],
+          "steps": [
+            "Fondre le chocolat et le beurre au bain-marie.",
+            "Fouetter œufs et sucre (vitesse 4) pendant 2 min pour la croûte meringuée.",
+            "Incorporer le mélange chocolaté à la feuille (vitesse 1).",
+            "Ajouter la farine T45 tamisée (vitesse 1) et les noisettes.",
+            "Cuire à 170°C pendant 22 minutes sur grille."
+          ],
+          "tips": "L'utilisation de la T45 rend le cœur plus soyeux. Un repos prolongé au frais est indispensable pour la tenue lors du transport à 5h du matin !"
+        }
+      }
+    ]
+  }
+]

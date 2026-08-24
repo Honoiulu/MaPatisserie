@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Éditer une recette — Mes Recettes de Pâtisserie</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <a href="index.html" class="brand">Mes Recettes</a>
+</header>
+
+<main class="container">
+  <h1 id="page-title">Nouvelle recette</h1>
+
+  <form id="recipe-form" class="recipe-form">
+    <div class="form-grid">
+      <label>Nom de la recette
+        <input type="text" id="name" required />
+      </label>
+      <label>Catégorie
+        <input type="text" id="category" required placeholder="Gâteaux, Tartes, Viennoiseries…" />
+      </label>
+      <label>Portions
+        <input type="number" id="servings" min="1" required />
+      </label>
+      <label>Préparation (min)
+        <input type="number" id="prepTime" min="0" required />
+      </label>
+      <label>Cuisson (min)
+        <input type="number" id="cookTime" min="0" required />
+      </label>
+      <label>Température (°C)
+        <input type="number" id="temperature" min="0" />
+      </label>
+    </div>
+
+    <fieldset>
+      <legend>Ingrédients</legend>
+      <div id="ingredients-fields" class="dynamic-fields"></div>
+      <button type="button" id="add-ingredient" class="btn-secondary">+ Ajouter un ingrédient</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Étapes</legend>
+      <div id="steps-fields" class="dynamic-fields"></div>
+      <button type="button" id="add-step" class="btn-secondary">+ Ajouter une étape</button>
+    </fieldset>
+
+    <label>Astuce (optionnel)
+      <textarea id="tips" rows="3" placeholder="Un conseil, une variante, un point de vigilance…"></textarea>
+    </label>
+
+    <div id="comment-field" class="comment-field" hidden>
+      <label>Raison de cette modification <span class="required">*</span>
+        <textarea id="comment" rows="2" placeholder="Ex : remplacement du chocolat de Pâques par du chocolat noir 65%"></textarea>
+      </label>
+    </div>
+
+    <div class="form-actions">
+      <button type="button" id="cancel-btn" class="btn-secondary">Annuler</button>
+      <button type="submit" id="submit-btn" class="btn-primary">Enregistrer</button>
+    </div>
+  </form>
+</main>
+
+<script src="js/storage.js"></script>
+<script src="js/form.js"></script>
+</body>
+</html>

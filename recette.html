@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Recette — Mes Recettes de Pâtisserie</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <a href="index.html" class="brand">Mes Recettes</a>
+  <nav class="header-actions" id="page-actions">
+    <a id="edit-btn" href="#" class="btn-secondary">Modifier</a>
+    <button id="delete-btn" class="btn-danger" type="button">Supprimer</button>
+  </nav>
+</header>
+
+<main class="container" id="app">
+  <div class="recipe-header">
+    <span class="badge" id="recipe-category"></span>
+    <h1 id="recipe-name"></h1>
+    <div class="recipe-meta">
+      <span id="meta-servings"></span>
+      <span>Préparation : <span id="meta-prep"></span></span>
+      <span>Cuisson : <span id="meta-cook"></span></span>
+      <span id="meta-temp"></span>
+    </div>
+    <p class="recipe-updated">
+      Dernière mise à jour le <span id="updated-at"></span> —
+      <button id="history-toggle" class="link-btn" type="button" aria-expanded="false">
+        Voir l'historique (<span id="history-count">0</span>)
+      </button>
+    </p>
+  </div>
+
+  <div id="history-panel" class="history-panel" hidden>
+    <h2>Historique des versions</h2>
+    <div id="history-list"></div>
+  </div>
+
+  <div class="recipe-layout">
+    <aside class="ingredients-panel">
+      <h2>Ingrédients</h2>
+      <ul id="ingredients-list"></ul>
+    </aside>
+    <section class="steps-panel">
+      <h2>Étapes</h2>
+      <ol id="steps-list"></ol>
+      <div id="tips-section" class="tips-box" hidden>
+        <h3>Astuce</h3>
+        <p id="tips-text"></p>
+      </div>
+    </section>
+  </div>
+</main>
+
+<div id="snapshot-modal" class="modal" hidden>
+  <div class="modal-content">
+    <button class="modal-close" id="snapshot-close" type="button" aria-label="Fermer">✕</button>
+    <h2 id="snapshot-title"></h2>
+    <p id="snapshot-comment"></p>
+    <h3>Ingrédients</h3>
+    <ul id="snapshot-ingredients"></ul>
+    <h3>Étapes</h3>
+    <ol id="snapshot-steps"></ol>
+    <h3>Astuce</h3>
+    <p id="snapshot-tips"></p>
+  </div>
+</div>
+
+<script src="js/storage.js"></script>
+<script src="js/detail.js"></script>
+</body>
+</html>
