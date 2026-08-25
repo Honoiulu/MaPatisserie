@@ -1,65 +1,322 @@
 [
   {
+    "name": "Tarte Bourdaloue",
+    "servings": 6,
+    "prepTime": 35,
+    "cookTime": 40,
+    "temperature": 180,
+    "ingredients": [
+      "250g de farine T55",
+      "125g de beurre froid en dés",
+      "90g de sucre glace",
+      "30g de poudre d'amandes (pâte)",
+      "1 œuf (pâte)",
+      "1 pincée de sel",
+      "100g de beurre pommade (crème d'amandes)",
+      "100g de sucre en poudre (crème d'amandes)",
+      "100g de poudre d'amandes (crème d'amandes)",
+      "2 œufs (crème d'amandes)",
+      "10g de farine ou fécule",
+      "1 bouchon de rhum ou extrait d'amande amère",
+      "1 boîte de poires au sirop (ou 4-5 poires pochées)",
+      "Amandes effilées",
+      "Nappage neutre ou gelée d'abricot"
+    ],
+    "steps": [
+      "Sabler la farine, le sucre glace, le sel, la poudre d'amandes et le beurre à la [feuille] à vitesse 1, puis ajouter l'œuf à vitesse 2. Filmer et réserver 1h au frais.",
+      "Crémer le beurre pommade et le sucre à la [feuille] à vitesse 3, ajouter la poudre d'amandes, puis les œufs à vitesse 2 et la farine.",
+      "Étaler la pâte, foncer le cercle à tarte, piquer le fond et placer 15 min au frais.",
+      "Garnir avec la crème d'amandes et disposer les demi-poires égouttées et émincées en étoile.",
+      "Parsemer d'amandes effilées et cuire 35-40 min à 180°C (four préchauffé sur plaque avec papier cuisson).",
+      "Badigeonner de nappage neutre à la sortie du four."
+    ],
+    "tips": "Bien éponger les poires avec du papier absorbant pour ne pas détremper la crème. Badigeonner de nappage tiède pour la brillance de pâtisserie.",
+    "id": "1769964809841",
+    "createdAt": "2026-02-01T16:00:00.000Z"
+  },
+  {
+    "name": "Moelleux au Chocolat Fondant à Cœur",
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 25,
+    "temperature": 170,
+    "ingredients": [
+      "200g de chocolat noir (55-65%)",
+      "100g de beurre doux",
+      "4 œufs (blancs et jaunes séparés)",
+      "100g de sucre en poudre",
+      "50g de farine T55",
+      "50g de poudre d'amandes",
+      "1 pincée de sel"
+    ],
+    "steps": [
+      "Faire fondre le chocolat et le beurre au bain-marie, laisser tiédir.",
+      "Blanchir les jaunes d'œufs et le sucre à la [feuille] à vitesse 4, puis incorporer le chocolat fondu à vitesse 2.",
+      "Ajouter la farine et la poudre d'amandes à vitesse 1.",
+      "Monter les blancs en neige avec le sel au [fouet] de vitesse 4 à 8 jusqu'au bec d'oiseau.",
+      "Détendre la pâte avec un tiers des blancs, puis incorporer délicatement le reste à la maryse.",
+      "Cuire 25-30 min à 170°C dans un moule à manqué chemisé de papier cuisson."
+    ],
+    "tips": "La poudre d'amandes apporte l'humidité indispensable. Tester la cuisson : la lame doit ressortir avec des miettes humides.",
+    "id": "1769964809842",
+    "createdAt": "2026-02-01T16:15:00.000Z"
+  },
+  {
+    "name": "Brownie Authentique",
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 22,
+    "temperature": 160,
+    "ingredients": [
+      "200g de chocolat noir (60-70%)",
+      "150g de beurre doux",
+      "3 œufs entiers",
+      "150g de sucre roux (cassonade ou vergeoise)",
+      "60g de farine T55",
+      "100g de noix ou noix de pécan concassées",
+      "1 c. à café d'extrait de vanille",
+      "1 pincée de sel"
+    ],
+    "steps": [
+      "Faire fondre le chocolat et le beurre au bain-marie et laisser tiédir.",
+      "Battre les œufs, le sucre roux et la vanille au [fouet] à vitesse 6 pendant 3 minutes jusqu'à blanchiment mousseux.",
+      "Ajouter le chocolat fondu à la [feuille] à vitesse 1.",
+      "Ajouter la farine et le sel à vitesse 1 très brièvement sans trop travailler.",
+      "Incorporer les noix concassées à la maryse.",
+      "Cuire 20-25 min à 160°C dans un moule carré tapissé de papier cuisson."
+    ],
+    "tips": "Bien battre les œufs et le sucre pour obtenir la fine croûte brillante. Laisser refroidir complètement puis placer 1h au frais pour une coupe nette.",
+    "id": "1769964809843",
+    "createdAt": "2026-02-01T16:30:00.000Z"
+  },
+  {
+    "name": "Madeleines à la Bosse Parfaite",
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 10,
+    "temperature": 210,
+    "ingredients": [
+      "150g de farine T45 ou T55",
+      "125g de beurre doux (noisette)",
+      "120g de sucre en poudre",
+      "3 œufs entiers",
+      "5g de levure chimique",
+      "20g de miel",
+      "1 pincée de sel",
+      "Zestes d'un citron ou vanille"
+    ],
+    "steps": [
+      "Préparer un beurre noisette dans une casserole et laisser tiédir.",
+      "Battre les œufs, le sucre, le miel et les zestes au [fouet] à vitesse 6 pendant 3-4 minutes.",
+      "Incorporer la farine, la levure et le sel tamisés à la [feuille] à vitesse 1.",
+      "Verser le beurre noisette tiède en filet à vitesse 1 jusqu'à homogénéité.",
+      "Filmer au contact et réserver au réfrigérateur au moins 4h (ou une nuit).",
+      "Remplir les alvéoles d'un moule métallique beurré aux 3/4 et cuire 4 min à 210°C puis 4-6 min à 180°C."
+    ],
+    "tips": "Le choc thermique entre la pâte glacée et le four très chaud combiné à un moule en métal crée la fameuse bosse.",
+    "id": "1769964809844",
+    "createdAt": "2026-02-01T16:45:00.000Z"
+  },
+  {
+    "name": "Génoise Légère et Souple",
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 22,
+    "temperature": 180,
+    "ingredients": [
+      "4 œufs entiers",
+      "125g de sucre en poudre",
+      "125g de farine T45 ou T55",
+      "1 pincée de sel",
+      "20g de beurre fondu (optionnel)",
+      "Zeste de citron ou extrait de vanille"
+    ],
+    "steps": [
+      "Chauffer les œufs et le sucre au bain-marie en fouettant manuellement jusqu'à atteindre 45°C.",
+      "Transférer sur le socle du robot avec le [fouet] et battre à vitesse 8 pendant 5 à 10 min jusqu'au ruban.",
+      "Tamiser la farine et le sel, puis les incorporer très délicatement à la maryse en deux fois (ajouter le beurre fondu à la fin si utilisé).",
+      "Verser immédiatement dans un moule à manqué beurré au fond uniquement.",
+      "Cuire 20-25 min à 180°C sur grille au centre du four. Démouler et retourner sur grille dès la sortie."
+    ],
+    "tips": "Ne pas beurrer les parois du moule pour que la pâte s'agrippe et monte droit. Retourner sur grille pour éviter l'affaissement.",
+    "id": "1769964809845",
+    "createdAt": "2026-02-01T17:00:00.000Z"
+  },
+  {
+    "name": "Ganache Montée de Base (à parfumer)",
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 0,
+    "temperature": 0,
+    "ingredients": [
+      "100g de chocolat blanc de couverture (min. 30% beurre de cacao)",
+      "50g de crème liquide entière 30% MG (pour la chauffe)",
+      "150g de crème liquide entière 30% MG très froide",
+      "1 feuille de gélatine (2g)",
+      "Arôme au choix (1 gousse de vanille, ou 60g de purée de fruits rouges en remplacement des 50g de crème)"
+    ],
+    "steps": [
+      "Chauffer les 50g de crème (ou purée de fruits) avec la vanille et laisser infuser 15 min.",
+      "Reporter à ébullition et verser en 3 fois sur le chocolat blanc haché en émulsionnant à la maryse.",
+      "Ajouter la gélatine réhydratée et essorée.",
+      "Ajouter les 150g de crème liquide très froide et mélanger délicatement.",
+      "Filmer au contact et placer au réfrigérateur au moins 6h (idéalement une nuit).",
+      "Monter au [fouet] à vitesse 4 puis 6 jusqu'à consistance ferme."
+    ],
+    "tips": "Utiliser un bol et une crème très froids. Monter à vitesse moyenne pour une texture fine et stable qui ne tranche pas.",
+    "id": "1769964809846",
+    "createdAt": "2026-02-01T17:15:00.000Z"
+  },
+  {
+    "name": "Pâte à Choux (Paris-Brest / Éclairs)",
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 35,
+    "temperature": 180,
+    "ingredients": [
+      "125g d'eau (ou 50% eau / 50% lait)",
+      "50g de beurre en dés",
+      "75g de farine T55",
+      "2 à 3 œufs entiers (125g à 150g)",
+      "2g de sel",
+      "5g de sucre",
+      "Amandes effilées ou sucre en grains (décor)"
+    ],
+    "steps": [
+      "Porter à ébullition l'eau, le beurre, le sel et le sucre dans une casserole.",
+      "Verser la farine d'un coup hors du feu et mélanger vigoureusement en panade.",
+      "Dessécher la pâte 1-2 min sur feu moyen jusqu'à formation d'une fine pellicule au fond.",
+      "Mettre la panade dans le bol du robot avec la [feuille] à vitesse 2 pendant 2 min pour évacuer la vapeur.",
+      "Incorporer les œufs battus en plusieurs fois à la [feuille] à vitesse 3 jusqu'à l'obtention d'un ruban en V.",
+      "Dresser à la poche à douille sur plaque et papier cuisson.",
+      "Cuire 35-40 min à 180°C en chaleur statique sans ouvrir la porte."
+    ],
+    "tips": "Vérifier la consistance avec la crête en V sur la feuille. Ne jamais ouvrir le four en cours de cuisson pour éviter l'affaissement.",
+    "id": "1769964809847",
+    "createdAt": "2026-02-01T17:30:00.000Z"
+  },
+  {
+    "name": "Crème Diplomate Onctueuse",
+  
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 10,
+    "temperature": 0,
+    "ingredients": [
+      "250ml de lait entier",
+      "2 jaunes d'œufs",
+      "50g de sucre en poudre",
+      "25g de fécule de maïs (Maïzena)",
+      "2 feuilles de gélatine (4g)",
+      "1 gousse de vanille",
+      "200ml de crème liquide entière 30% MG très froide"
+    ],
+    "steps": [
+      "Chauffer le lait avec la gousse de vanille fendue et grattée.",
+      "Blanchir les jaunes et le sucre au [fouet] à vitesse 4, puis ajouter la fécule.",
+      "Verser le lait chaud sur le mélange, reverser dans la casserole et épaissir à ébullition sans cesser de fouetter.",
+      "Hors du feu, incorporer la gélatine essorée. Débarrasser, filmer au contact et refroidir 2h au réfrigérateur.",
+      "Détendre la pâtissière froide au [fouet] à vitesse 6 pendant 1 minute.",
+      "Monter la crème liquide très froide en chantilly au [fouet] à vitesse 8.",
+      "Incorporer délicatement la chantilly à la crème pâtissière lissée avec une maryse."
+    ],
+    "tips": "Bien lisser la pâtissière froide avant de mélanger pour éviter les grumeaux de gélatine. Conserver au frais.",
+    "id": "1769964809848",
+    "createdAt": "2026-02-01T17:40:00.000Z"
+  },
+  {
+    "name": "Cake de Voyage au Citron Moelleux",
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 55,
+    "temperature": 160,
+    "ingredients": [
+      "190g de farine T55",
+      "190g de sucre en poudre",
+      "3 œufs entiers",
+      "65g de crème liquide entière 30% MG",
+      "70g de beurre fondu tiédi",
+      "Zestes de 2 citrons non traités",
+      "5g de levure chimique",
+      "1 pincée de sel",
+      "75g d'eau (sirop)",
+      "30g de sucre (sirop)",
+      "1 c. à soupe de jus de citron (sirop)"
+    ],
+    "steps": [
+      "Frotter les zestes de citron dans le sucre et laisser infuser 10 min.",
+      "Ajouter les œufs et blanchir au [fouet] à vitesse 6 pendant 5 min jusqu'à foisonnement.",
+      "Ajouter la crème liquide et le sel à vitesse 2.",
+      "Incorporer la farine et la levure tamisées à la [feuille] à vitesse 1.",
+      "Verser le beurre fondu tiède en filet à vitesse 1.",
+      "Cuire 50-60 min à 160°C dans un moule à cake chemisé.",
+      "Préparer le sirop en portant eau et sucre à ébullition, puis ajouter le jus de citron. Imbiber le cake chaud dès la sortie du four au pinceau."
+    ],
+    "tips": "Tracer un trait de beurre fondu sur la longueur de la pâte avant cuisson pour une fente régulière. Imbiber généreusement à la sortie du four.",
+    "id": "1769964809849",
+    "createdAt": "2026-02-01T17:50:00.000Z"
+  },
+  {
+    "name": "Tarte au Citron Meringuée",
+    "servings": 6,
+    "prepTime": 45,
+    "cookTime": 25,
+    "temperature": 170,
+    "ingredients": [
+      "200g de farine T55",
+      "100g de beurre froid en dés",
+      "80g de sucre glace",
+      "1 œuf",
+      "1 pincée de sel",
+      "150ml de jus de citron (3-4 citrons)",
+      "Zestes de 2 citrons",
+      "120g de sucre (curd)",
+      "3 œufs entiers (curd)",
+      "150g de beurre froid en dés (curd)",
+      "1 feuille de gélatine (2g)",
+      "2 blancs d'œufs (meringue)",
+      "120g de sucre (meringue)",
+      "40ml d'eau (meringue)"
+    ],
+    "steps": [
+      "Sabler farine, sucre glace, sel et beurre à la [feuille] à vitesse 1, lier avec l'œuf à vitesse 2. Repos 1h au frais.",
+      "Foncer le cercle et cuire à blanc à 170°C pendant 20-25 min avec billes de cuisson.",
+      "Chauffer le jus de citron, zestes et sucre, ajouter les 3 œufs battus et épaissir à ébullition.",
+      "Hors du feu, ajouter la gélatine essorée. Tiédir à 45°C, puis émulsionner le beurre froid au [fouet] à vitesse 4 pendant 2 min. Couler sur le fond de tarte et figer 2h au frais.",
+      "Cuire eau et sucre à 118°C, verser en filet sur les blancs montés au [fouet] à vitesse 6, puis fouetter à vitesse 10 jusqu'à refroidissement.",
+      "Pocher la meringue sur la tarte et dorer au chalumeau."
+    ],
+    "tips": "Ajouter le beurre à 45°C pour une texture pommade et émulsionnée sans graisser. Imperméabiliser le fond de tarte au chocolat blanc.",
+    "id": "1769964809850",
+    "createdAt": "2026-02-01T17:55:00.000Z"
+  },
+  {
+    "name": "Cookies Perfection",
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 12,
+    "temperature": 180,
+    "ingredients": [
+      "120g de beurre demi-sel pommade",
+      "100g de vergeoise brune",
+      "60g de sucre blanc",
+      "1 œuf à température ambiante",
+      "220g de farine T55",
+      "1 c. à café de bicarbonate de soude",
+      "200g de chocolat noir haché",
+      "Fleur de sel"
+    ],
+    "steps": [
+      "Crémer le beurre pommade et les sucres avec la [feuille] à vitesse 3.",
+      "Ajouter l'œuf à vitesse 2 jusqu'à incorporation.",
+      "Ajouter la farine et le bicarbonate à vitesse 1 très brièvement.",
+      "Incorporer le chocolat haché à vitesse 1 pendant 10 secondes.",
+      "Former des boules à la cuillère à glace et placer au réfrigérateur 2h.",
+      "Cuire 10-12 min à 180°C (chaleur statique) sur plaque et papier cuisson.",
+      "Saupoudrer de fleur de sel à la sortie."
+    ],
+    "tips": "Utiliser la vergeoise brune pour le moelleux chewy et privilégier la chaleur statique. Ne pas surcuire.",
     "id": "1769964809840",
-    "createdAt": "2026-04-21T11:45:00.000Z",
-    "current": {
-      "name": "Brownie Ultime Noisettes et Chocolat Noir",
-      "category": "Gâteaux",
-      "servings": 8,
-      "prepTime": 15,
-      "cookTime": 24,
-      "temperature": 170,
-      "ingredients": [
-        "200g chocolat de Pâques (moulages)",
-        "20g cacao en poudre non sucré",
-        "150g beurre demi-sel",
-        "90g sucre roux",
-        "3 œufs",
-        "65g farine T45",
-        "100g noisettes torréfiées",
-        "Fleur de sel"
-      ],
-      "steps": [
-        "Fondre le chocolat de Pâques et le beurre au bain-marie.",
-        "Fouetter les œufs et le sucre réduit (vitesse 4) pendant 2 min.",
-        "Incorporer le mélange chocolaté à la feuille (vitesse 1).",
-        "Ajouter le mélange tamisé farine T45 et cacao en poudre (vitesse 1).",
-        "Intégrer les noisettes et cuire à 170°C pendant 24 minutes."
-      ],
-      "tips": "Le cacao en poudre non sucré compense l'apport massif de sucre du chocolat de Pâques et garantit une mâche parfaite.",
-      "updatedAt": "2026-05-22T17:10:00.000Z"
-    },
-    "history": [
-      {
-        "version": 1,
-        "changedAt": "2026-04-21T11:45:00.000Z",
-        "comment": "Version initiale au chocolat noir 65%, avant l'essai avec le chocolat de Pâques restant.",
-        "snapshot": {
-          "name": "Brownie Ultime Noisettes et Chocolat Noir",
-          "category": "Gâteaux",
-          "servings": 8,
-          "prepTime": 15,
-          "cookTime": 22,
-          "temperature": 170,
-          "ingredients": [
-            "200g chocolat noir 65%",
-            "150g beurre demi-sel",
-            "150g sucre roux",
-            "3 œufs",
-            "65g farine T45",
-            "100g noisettes torréfiées",
-            "Fleur de sel"
-          ],
-          "steps": [
-            "Fondre le chocolat et le beurre au bain-marie.",
-            "Fouetter œufs et sucre (vitesse 4) pendant 2 min pour la croûte meringuée.",
-            "Incorporer le mélange chocolaté à la feuille (vitesse 1).",
-            "Ajouter la farine T45 tamisée (vitesse 1) et les noisettes.",
-            "Cuire à 170°C pendant 22 minutes sur grille."
-          ],
-          "tips": "L'utilisation de la T45 rend le cœur plus soyeux. Un repos prolongé au frais est indispensable pour la tenue lors du transport à 5h du matin !"
-        }
-      }
-    ]
+    "createdAt": "2026-02-01T17:58:00.000Z"
   }
 ]
