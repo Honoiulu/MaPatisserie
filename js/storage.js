@@ -31,6 +31,50 @@ function generateId() {
   return Date.now().toString() + Math.floor(Math.random() * 1000).toString().padStart(3, '0');
 }
 
+/**
+ * Détecte si une entrée est déjà au format "enveloppé" attendu par l'app
+ * ({ id, createdAt, current, history }) ou si c'est une recette "brute"
+ * (les champs name/ingredients/steps... directement à la racine, comme
+ * dans les exports d'origine). Permet d'importer les deux formats sans
+ * conversion manuelle.
+ */
+function isWrappedRecipe(entry) {
+  return !!(entry && typeof entry === 'object' && entry.current && typeof entry.current === 'object');
+}
+
+/** Convertit une recette au format brut en format enveloppé { current, history }. */
+function wrapRawRecipe(raw) {
+  const { id, createdAt, ...fields } = raw;
+  const timestamp = createdAt || nowISO();
+  return {
+    id: id || generateId(),
+    createdAt: timestamp,
+    current: { ...fields, updatedAt: timestamp },
+    history: []
+  };
+}
+
+function normalizeEntry(entry) {
+  return isWrappedRecipe(entry) ? entry : wrapRawRecipe(entry);
+}
+
+/** Régénère un id pour toute entrée dont l'id est déjà utilisé par une entrée précédente du même tableau. */
+function dedupeIds(recipes) {
+  const seen = new Set();
+  return recipes.map((r) => {
+    if (seen.has(r.id)) {
+      r = { ...r, id: generateId() };
+    }
+    seen.add(r.id);
+    return r;
+  });
+}
+
+/** Normalise un tableau complet : convertit les entrées brutes puis évite les id en double. */
+function normalizeRecipeList(list) {
+  return dedupeIds(list.map(normalizeEntry));
+}
+
 function readRaw() {
   const raw = localStorage.getItem(STORAGE_KEY);
   return raw ? JSON.parse(raw) : null;
@@ -45,7 +89,8 @@ async function ensureSeeded() {
   if (recipes === null) {
     try {
       const res = await fetch(SEED_URL);
-      recipes = res.ok ? await res.json() : [];
+      const seedData = res.ok ? await res.json() : [];
+      recipes = normalizeRecipeList(seedData);
     } catch (e) {
       recipes = [];
     }
@@ -157,10 +202,11 @@ async function exportAllToFile() {
  */
 async function importFromFile(file, mode = 'merge') {
   const text = await file.text();
-  const imported = JSON.parse(text);
-  if (!Array.isArray(imported)) {
+  const parsed = JSON.parse(text);
+  if (!Array.isArray(parsed)) {
     throw new Error('Format JSON invalide : un tableau de recettes est attendu.');
   }
+  const imported = normalizeRecipeList(parsed);
   let recipes = mode === 'replace' ? [] : await loadRecipes();
   imported.forEach((imp) => {
     const existingIdx = recipes.findIndex((r) => r.id === imp.id);
